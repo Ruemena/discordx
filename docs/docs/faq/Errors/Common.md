@@ -16,11 +16,11 @@ CustomError: Cannot find module '/project/secret' imported from '/project/index.
 
 #### Solution
 
-[Read here](/docs/faq/esm-vs-cjs#import-in-cjs-vs-esm)
+You are using the wrong module system: discordx requires ESM. Read more [here](/docs/faq/esm-vs-cjs#import-in-cjs-vs-esm).
 
 ---
 
-## SyntaxError: The requested module does not provide an export named
+## SyntaxError: The requested module does not provide an export named X
 
 ```ts
 import { ArgsOf, Client } from 'discordx';
@@ -31,7 +31,7 @@ SyntaxError: The requested module 'discordx' does not provide an export named 'A
 
 #### Solution
 
-Use import type. [Read it in depth](https://devblogs.microsoft.com/typescript/announcing-typescript-3-8-beta/#type-only-imports-exports).
+Use `import type`. Read about it in depth [here](https://devblogs.microsoft.com/typescript/announcing-typescript-3-8-beta/#type-only-imports-exports).
 
 ```ts
 import type { ArgsOf } from "discordx";
@@ -51,7 +51,7 @@ DiscordAPIError: Missing Access
 
 #### Solution
 
-[Authorize your bot to use application commands](/docs/discordx/decorators/command/slash#authorize-your-bot-to-use-application-commands)
+[Authorize your bot to use application commands.](/docs/discordx/decorators/command/slash#authorize-your-bot-to-use-application-commands)
 
 ---
 
@@ -63,6 +63,6 @@ Error [DISALLOWED_INTENTS]: Privileged intent provided is not enabled or whiteli
 
 #### Solution
 
-Some [Gateway Intents](https://discord.com/developers/docs/topics/gateway#gateway-intents) require approval if your bot is verified. If your bot is not verified, you can toggle those intents to access them. - _Discord_
+Certain [Gateway Intents](https://discord.com/developers/docs/topics/gateway#gateway-intents) require approval if your bot is verified. If your bot is not verified, you can toggle those intents to access them. - _Discord_
 
 ![Privileged Gateway Intents](../../../static/img/privileged-gateway-intents.png)
