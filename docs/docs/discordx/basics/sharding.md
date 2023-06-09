@@ -8,26 +8,26 @@ Sharding is the process of splitting your main discord process into multiple sha
 
 [discord.js Sharding Guide](https://discordjs.guide/sharding/#when-to-shard)
 
-When you hit that milestone and need to begin the sharding process this guide will serve as a starting document to help you get set up.
+When you hit that milestone and need to begin the sharding process, this guide will serve as a starting document to help you get set up.
 
 ## Before you start
 
-- ✅ Get your bot into 2,000 guilds
-- ✅ Ensure your bot compiles down to javascript with `tsc`
+- ✅ Get your bot into at least 2,000 guilds
+- ✅ Ensure your bot compiles down to JavaScript with `tsc`
 
 ### What if my bot is in less than 2,000 servers?
 
-discord.**js** has stated
+discord.**js** has stated that:
 
 "_Sharding is only necessary at 2,500 guilds—at that point, Discord will not allow your bot to login without sharding. With that in mind, you should consider this when your bot is around 2,000 guilds, which should be enough time to get this working. Contrary to popular belief, sharding itself is very simple. It can be complex depending on your bot's needs, however. If your bot is in a total of 2,000 or more servers, then please continue with this guide. Otherwise, it may be a good idea to wait until then._"
 
-However if you are curious you may continue to read this doc! But don't worry about sharding until 2,000 guilds. Focus on building a quality bot as sharding adds more complexity.
+However, if you are curious you may continue to read this doc! But don't worry about sharding until 2,000 guilds. It is recommended to focus on building a quality bot. as sharding adds more complexity that is unnecessary for bots that are not in a large number of servers.
 
 ### What if my bot does not compile with tsc?
 
 If your bot does not compile with `tsc` but runs with `ts-node` you will **not** be able to shard with the discord.**js** sharding managers.
 
-I found success with using this `tsconfig.json`
+You can try editing tsconfig.json`
 
 ```json
 {
@@ -49,7 +49,7 @@ I found success with using this `tsconfig.json`
 }
 ```
 
-If you are receiving errors that complain about imports. Try using the following import where the compiler complains about the import.
+If you are receiving errors that complain about imports, try using the following import where the compiler complains about the import.
 
 ```diff
 - import fs from 'fs';
