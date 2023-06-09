@@ -38,7 +38,7 @@ A type of `module` will result in ESM modules, while a type of `commonjs` will r
 
 ### Import in CJS vs ESM
 
-ESM requires that the name of imported modules end with a file extension. However, CJS ignores this and will work with or without a file extension in the name.
+CJS requires that the name of imported modules end with a file extension. However, ESM ignores this and will work with or without a file extension in the name.
 
 ```ts
 import { helper } from "./foo"; // ❌ only works in CJS
