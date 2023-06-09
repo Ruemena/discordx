@@ -7,7 +7,7 @@ sidebar_label: ESM vs CJS
 
 ## Basics
 
-This document provides a very basic overview: please refer to the linked references for more information.
+You may have heard that discordx requires ECMAScript or ESM, and will not work without it. However, you may not know what that means and what it entails. This provides a brief overview: for more information, please check out the official Node.js reference, linked below. 
 
 ### What is a module?
 
