@@ -3,7 +3,7 @@
 Here are more packages from us to extend the functionality of your Discord bot.
 
 | Package                                      | Description                                                   |
-| -------------------------------------------- | ------------------------------------------------------------ -|
+| -------------------------------------------- | --------------------------------------------------------------|
 | [`create-discordx`](/docs/create-discordx)   | Create discordx (discord.ts) apps with one command            |
 | [`discordx`](/docs/discordx)                 | Create a Discord bot with TypeScript and Decorators!          |
 | [`@discordx/changelog`](/docs/changelog)     | Changelog generator, written in TypeScript with Node.js       |
