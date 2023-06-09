@@ -2,7 +2,7 @@
 title: Decorators
 ---
 
-it simplifies your code and improves the readability!
+[Decorators](https://www.typescriptlang.org/docs/handbook/decorators.html) are special declarations that allow for greatly simplified code and accelerated development of your projects. 
 
 ## Command
 
