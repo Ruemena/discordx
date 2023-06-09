@@ -38,9 +38,9 @@
 
 # 📖 Introduction
 
-This module is an extension of [discord.js](https://discord.js.org), so the internal behavior (methods, properties, ...) is the same.
-
 This library allows you to use [TypeScript decorators](https://www.typescriptlang.org/docs/handbook/decorators.html) with [discord.js](https://discord.js.org), which greatly simplifies your code and improves the readability of it!
+
+This module is an extension of [discord.js](https://discord.js.org), so the internal behavior (methods, properties, etc.) remains the same. This also means that discord.js and discordx can be used interchangably with one another, allowing you to pick and choose what features of discordx you would like to incorporate into your bot. 
 
 # 🗂 Packages
 
