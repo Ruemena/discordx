@@ -32,7 +32,7 @@
     /></a>
   </div>
   <p align="center">
-    <b> Create a discord bot with TypeScript and Decorators! </b>
+    <b> Create a Discord bot with TypeScript and Decorators! </b>
   </p>
 </div>
 
@@ -40,16 +40,16 @@
 
 This module is an extension of [discord.js](https://discord.js.org), so the internal behavior (methods, properties, ...) is the same.
 
-This library allows you to use TypeScript decorators on [discord.js](https://discord.js.org), it simplifies your code and improves the readability!
+This library allows you to use [TypeScript decorators](https://www.typescriptlang.org/docs/handbook/decorators.html) with [discord.js](https://discord.js.org), which greatly simplifies your code and improves the readability of it!
 
 # 🗂 Packages
 
-- [discordx](./packages/discordx#readme) - discord framework for building a discord.js bot using Typescript decorators.
+- [discordx](./packages/discordx#readme) - Discord framework for building a discord.js bot using Typescript decorators.
 - [create-discordx](./packages/create-discordx#readme) - CLI tool for generating a discordx project using templates.
 - [@discordx/changelog](./packages/changelog#readme) - A changelog generation tool built with Typescript and Node.
 - [@discordx/di](./packages/di#readme) - Dependency injection service with support for agnostic IOC.
 - [@discordx/importer](./packages/importer#readme) - Import solution for both ESM and CJS.
-- [@discordx/internal](./packages/internal#readme) - discordx internal methods, Can be used for external projects.
+- [@discordx/internal](./packages/internal#readme) - Discordx internal methods, which can be used for external projects.
 - [@discordx/koa](./packages/koa#readme) - Koa framework for building a rest API using Typescript decorators.
 - [@discordx/lava-player](./packages/lava-player#readme) - A Lavalink player.
 - [@discordx/lava-queue](./packages/lava-queue#readme) - A queue system for lava-player.
@@ -65,8 +65,8 @@ This library allows you to use TypeScript decorators on [discord.js](https://dis
 
 # ☎️ Need help?
 
-- [Check frequently asked questions](https://discordx.js.org/docs/faq)
-- [Check examples](https://github.com/discordx-ts/discordx/tree/main/packages/discordx/examples)
+- [Check the frequently asked questions](https://discordx.js.org/docs/faq)
+- [Check the examples](https://github.com/discordx-ts/discordx/tree/main/packages/discordx/examples)
 - Ask in the community [Discord server](https://discordx.js.org/discord)
 
 # 💖 Thank you
