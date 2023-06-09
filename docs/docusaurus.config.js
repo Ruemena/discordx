@@ -8,8 +8,8 @@ module.exports = {
   // },
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  organizationName: "samarmeena", // Usually your GitHub org/user name.
-  projectName: "discordx", // Usually your repo name.
+  organizationName: "samarmeena",
+  projectName: "discordx",
   tagline: "Create a discord bot with TypeScript and Decorators!",
   title: "discordx official documentation",
   url: "https://discordx.js.org",
@@ -86,7 +86,7 @@ module.exports = {
           sidebarPath: require.resolve("./sidebars.js"),
         },
         gtag: {
-          anonymizeIP: true, // Should IPs be anonymized?
+          anonymizeIP: true,
           // code-spell: disable
           trackingID: "G-VD776VLREB",
         },
